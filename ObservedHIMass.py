@@ -3,7 +3,7 @@
 
 import streamlit as st
 import math
-import imp
+from importlib import import_module as imp
 
 # EXTERNAL SCRIPTS IMPORTED AS FUNCTIONS
 # "nicenumber" function returns human-readable versions of numbers, e.g, comma-separated or scientific notation depending
