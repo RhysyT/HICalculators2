@@ -15,7 +15,7 @@ from NiceNumber import nicenumber
 
 # Function to calculate the total integrated S/N
 import AASN
-imp.reload(AASN)
+importlib.reload(AASN)
 from AASN import aasn
 
 
