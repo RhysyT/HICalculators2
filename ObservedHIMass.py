@@ -3,13 +3,13 @@
 
 import streamlit as st
 import math
-from importlib import import_module as imp
+from importlib import import_module
 
 # EXTERNAL SCRIPTS IMPORTED AS FUNCTIONS
 # "nicenumber" function returns human-readable versions of numbers, e.g, comma-separated or scientific notation depending
 # on size
 import NiceNumber
-imp.reload(NiceNumber)
+importlib.reload(NiceNumber)
 from NiceNumber import nicenumber
 
 # Function to calculate the total integrated S/N
