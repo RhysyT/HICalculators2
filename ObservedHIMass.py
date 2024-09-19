@@ -3,7 +3,7 @@
 
 import streamlit as st
 import math
-import impotlib
+import importlib
 from importlib import import_module
 
 # EXTERNAL SCRIPTS IMPORTED AS FUNCTIONS
